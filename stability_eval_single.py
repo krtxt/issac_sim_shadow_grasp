@@ -30,8 +30,8 @@ from rich.panel import Panel
 from rich.table import Table
 from rich import box
 
-from utils.handmodel import get_handmodel
-from utils.rot6d import rot_to_orthod6d
+from handmodel import get_handmodel
+from rot6d import rot_to_orthod6d
 
 DEFAULT_TEMP_ROOT = Path('explore_issac/temp')
 
