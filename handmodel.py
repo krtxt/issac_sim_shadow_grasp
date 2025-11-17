@@ -6,7 +6,7 @@ import trimesh as tm
 import urdf_parser_py.urdf as URDF_PARSER
 from plotly import graph_objects as go
 from pytorch_kinematics.urdf_parser_py.urdf import (URDF, Box, Cylinder, Mesh, Sphere)
-from utils.rot6d import *
+from rot6d import *
 import trimesh.sample
 from csdf import index_vertices_by_faces, compute_sdf
 import pytorch3d
